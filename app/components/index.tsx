@@ -36,10 +36,10 @@ const Main: FC = () => {
   // in mobile, show sidebar by click button
   const [isShowSidebar, { setTrue: showSidebar, setFalse: hideSidebar }] = useBoolean(false)
 
-  useEffect(() => {
-    if (APP_INFO?.title)
-      document.title = ``
-  }, [APP_INFO?.title])
+ // useEffect(() => {
+//    if (APP_INFO?.title)
+ //     document.title = ``
+ // }, [APP_INFO?.title])
 
   /*
   * conversation info
